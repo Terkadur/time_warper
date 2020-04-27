@@ -1,9 +1,0 @@
-Game environment and board created
-
-Ideas:
-Time Travel (puzzle)
-Teleportation (kinda easy)
-Gadgets (adventure/action)
-Parkour (eh really easy)
-
-Decision: Time Travel
