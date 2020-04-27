@@ -40,6 +40,7 @@ function setup() {
   block = loadImage("1.3/images/lab_block.png");
   human_right = loadImage("1.3/images/human_right.png");
   human_left = loadImage("1.3/images/human_left.png");
+  print(1);
 }
 
 function draw() {
