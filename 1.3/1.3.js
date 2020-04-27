@@ -38,9 +38,9 @@ function setup() {
     [1, 1, 1, 1, 1, 1, 1, 1]
   ];
   
-  block = loadImage("1.3/images/lab_block.png");
-  human_right = loadImage("1.3/images/human_right.png");
-  human_left = loadImage("1.3/images/human_left.png");
+  //block = loadImage("1.3/images/lab_block.png");
+  //human_right = loadImage("1.3/images/human_right.png");
+  //human_left = loadImage("1.3/images/human_left.png");
 }
 
 function draw() {
