@@ -17,6 +17,7 @@ function setup() {
   scale = 64;
   game_width = width/scale; //16
   game_height = height/scale; //8
+  print(1);
   
   game_environment = [
     [1, 1, 1, 1, 1, 1, 1, 1],
@@ -40,7 +41,6 @@ function setup() {
   block = loadImage("1.3/images/lab_block.png");
   human_right = loadImage("1.3/images/human_right.png");
   human_left = loadImage("1.3/images/human_left.png");
-  print(1);
 }
 
 function draw() {
@@ -83,7 +83,7 @@ function draw() {
   if (keyIsDown(UP_ARROW) && !keyIsDown(DOWN_ARROW) && (game_environment[floor(player.x)][player.y - 1] == 1 || game_environment[ceil(player.x)][player.y - 1] == 1)) {
     player.v_y = player.j;
   }
-  background(255, 0, 0);
+  background(0);
   for (var i = 0; i < game_environment.length; i++) {
     for (var j = 0; j < game_environment[i].length; j++) {
       if (game_environment[i][j] == 1) {
