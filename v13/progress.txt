@@ -1,0 +1,1 @@
+Fixed zoomed in animation bug

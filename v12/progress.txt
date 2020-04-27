@@ -1,0 +1,2 @@
+Implemented the black hole animation for player collisions
+Bug: Animation goes crazy if the browser is zoomed in
