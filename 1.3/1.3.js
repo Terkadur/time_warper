@@ -83,7 +83,7 @@ function draw() {
   if (keyIsDown(UP_ARROW) && !keyIsDown(DOWN_ARROW) && (game_environment[floor(player.x)][player.y - 1] == 1 || game_environment[ceil(player.x)][player.y - 1] == 1)) {
     player.v_y = player.j;
   }
-  background(0);
+  background(255, 0, 0);
   for (var i = 0; i < game_environment.length; i++) {
     for (var j = 0; j < game_environment[i].length; j++) {
       if (game_environment[i][j] == 1) {
