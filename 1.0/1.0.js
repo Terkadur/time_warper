@@ -6,6 +6,7 @@ player = {
 
 function setup() {
   createCanvas(1024, 512);
+  print(1);
   frameRate(50);
   scale = 64;
   game_width = width/scale; //16
