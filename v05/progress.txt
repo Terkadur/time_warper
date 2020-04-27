@@ -1,0 +1,5 @@
+Created the basic time travel mechanics
+
+Notes:
+Create timer
+Create time travel animation
